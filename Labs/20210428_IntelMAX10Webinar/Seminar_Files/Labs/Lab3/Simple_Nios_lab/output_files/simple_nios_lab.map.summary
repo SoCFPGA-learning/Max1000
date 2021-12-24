@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Jan 21 14:41:14 2019
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : simple_nios_lab
+Top-level Entity Name : simple_nios_lab
+Family : MAX 10
+Total logic elements : 1,781
+    Total combinational functions : 1,576
+    Dedicated logic registers : 955
+Total registers : 955
+Total pins : 10
+Total virtual pins : 0
+Total memory bits : 76,800
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

@@ -1,0 +1,18 @@
+14:42:30 **** Incremental Build of configuration Nios II for project simple_nios_lab ****
+make all 
+Info: Building ../simple_nios_lab_bsp/
+D:/Intel/Quartus/18.0lite/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../simple_nios_lab_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../simple_nios_lab_bsp//HAL/inc -I../simple_nios_lab_bsp/ -I../simple_nios_lab_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+Info: Linking simple_nios_lab.elf
+nios2-elf-g++  -T'../simple_nios_lab_bsp//linker.x' -msys-crt0='../simple_nios_lab_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../simple_nios_lab_bsp/  -msmallc  -Wl,-Map=simple_nios_lab.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o simple_nios_lab.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert simple_nios_lab.elf --thread_model hal --cpu_name nios --qsys true --simulation_enabled false --id 338609 --sidp 0x5030 --timestamp 1548077890 --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name simple_nios_lab --quartus_project_dir "C:/MAX1000/Simple_Nios_lab" --jdi ../..//output_files/simple_nios_lab.jdi --sopcinfo C:/MAX1000/Simple_Nios_lab/software/simple_nios_lab_bsp/../../simple_nios_lab.sopcinfo
+Info: (simple_nios_lab.elf) 4360 Bytes program size (code + initialized data).
+Info:                       3108 Bytes free for stack + heap.
+Info: Creating simple_nios_lab.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source simple_nios_lab.elf >simple_nios_lab.objdump
+[simple_nios_lab build complete]
+
+14:42:36 Build Finished (took 5s.381ms)
+

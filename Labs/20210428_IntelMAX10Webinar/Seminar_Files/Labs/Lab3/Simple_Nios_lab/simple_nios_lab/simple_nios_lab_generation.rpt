@@ -1,0 +1,93 @@
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\MAX1000\Simple_Nios_lab\simple_nios_lab.qsys --synthesis=VHDL --output-directory=C:\MAX1000\Simple_Nios_lab\simple_nios_lab\synthesis --family="MAX 10" --part=10M08SAU169C8G
+Progress: Loading Simple_Nios_lab/simple_nios_lab.qsys
+Progress: Reading input file
+Progress: Adding clk12mhz [clock_source 18.0]
+Progress: Parameterizing module clk12mhz
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.0]
+Progress: Parameterizing module jtag_uart
+Progress: Adding leds [altera_avalon_pio 18.0]
+Progress: Parameterizing module leds
+Progress: Adding nios [altera_nios2_gen2 18.0]
+Progress: Parameterizing module nios
+Progress: Adding onchip [altera_avalon_onchip_memory2 18.0]
+Progress: Parameterizing module onchip
+Progress: Adding pll [altpll 18.0]
+Progress: Parameterizing module pll
+Progress: Adding sysid [altera_avalon_sysid_qsys 18.0]
+Progress: Parameterizing module sysid
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: simple_nios_lab.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: simple_nios_lab.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: simple_nios_lab.sysid: Time stamp will be automatically updated when this component is generated.
+Info: simple_nios_lab: Generating simple_nios_lab "simple_nios_lab" for QUARTUS_SYNTH
+Info: Inserting clock-crossing logic between cmd_demux.src3 and cmd_mux_003.sink0
+Info: Inserting clock-crossing logic between rsp_demux_003.src0 and rsp_mux.sink3
+Info: jtag_uart: Starting RTL generation for module 'simple_nios_lab_jtag_uart'
+Info: jtag_uart:   Generation command is [exec D:/intel/quartus/18.0lite/quartus/bin64/perl/bin/perl.exe -I D:/intel/quartus/18.0lite/quartus/bin64/perl/lib -I D:/intel/quartus/18.0lite/quartus/sopc_builder/bin/europa -I D:/intel/quartus/18.0lite/quartus/sopc_builder/bin/perl_lib -I D:/intel/quartus/18.0lite/quartus/sopc_builder/bin -I D:/intel/quartus/18.0lite/quartus/../ip/altera/sopc_builder_ip/common -I D:/intel/quartus/18.0lite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- D:/intel/quartus/18.0lite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=simple_nios_lab_jtag_uart --dir=C:/Users/a73778/AppData/Local/Temp/1/alt7917_4325775962071245193.dir/0002_jtag_uart_gen/ --quartus_dir=D:/intel/quartus/18.0lite/quartus --verilog --config=C:/Users/a73778/AppData/Local/Temp/1/alt7917_4325775962071245193.dir/0002_jtag_uart_gen//simple_nios_lab_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'simple_nios_lab_jtag_uart'
+Info: jtag_uart: "simple_nios_lab" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: leds: Starting RTL generation for module 'simple_nios_lab_leds'
+Info: leds:   Generation command is [exec D:/intel/quartus/18.0lite/quartus/bin64/perl/bin/perl.exe -I D:/intel/quartus/18.0lite/quartus/bin64/perl/lib -I D:/intel/quartus/18.0lite/quartus/sopc_builder/bin/europa -I D:/intel/quartus/18.0lite/quartus/sopc_builder/bin/perl_lib -I D:/intel/quartus/18.0lite/quartus/sopc_builder/bin -I D:/intel/quartus/18.0lite/quartus/../ip/altera/sopc_builder_ip/common -I D:/intel/quartus/18.0lite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/intel/quartus/18.0lite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=simple_nios_lab_leds --dir=C:/Users/a73778/AppData/Local/Temp/1/alt7917_4325775962071245193.dir/0003_leds_gen/ --quartus_dir=D:/intel/quartus/18.0lite/quartus --verilog --config=C:/Users/a73778/AppData/Local/Temp/1/alt7917_4325775962071245193.dir/0003_leds_gen//simple_nios_lab_leds_component_configuration.pl  --do_build_sim=0  ]
+Info: leds: Done RTL generation for module 'simple_nios_lab_leds'
+Info: leds: "simple_nios_lab" instantiated altera_avalon_pio "leds"
+Info: nios: "simple_nios_lab" instantiated altera_nios2_gen2 "nios"
+Info: onchip: Starting RTL generation for module 'simple_nios_lab_onchip'
+Info: onchip:   Generation command is [exec D:/intel/quartus/18.0lite/quartus/bin64/perl/bin/perl.exe -I D:/intel/quartus/18.0lite/quartus/bin64/perl/lib -I D:/intel/quartus/18.0lite/quartus/sopc_builder/bin/europa -I D:/intel/quartus/18.0lite/quartus/sopc_builder/bin/perl_lib -I D:/intel/quartus/18.0lite/quartus/sopc_builder/bin -I D:/intel/quartus/18.0lite/quartus/../ip/altera/sopc_builder_ip/common -I D:/intel/quartus/18.0lite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/intel/quartus/18.0lite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=simple_nios_lab_onchip --dir=C:/Users/a73778/AppData/Local/Temp/1/alt7917_4325775962071245193.dir/0004_onchip_gen/ --quartus_dir=D:/intel/quartus/18.0lite/quartus --verilog --config=C:/Users/a73778/AppData/Local/Temp/1/alt7917_4325775962071245193.dir/0004_onchip_gen//simple_nios_lab_onchip_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip: Done RTL generation for module 'simple_nios_lab_onchip'
+Info: onchip: "simple_nios_lab" instantiated altera_avalon_onchip_memory2 "onchip"
+Info: pll: "simple_nios_lab" instantiated altpll "pll"
+Info: sysid: "simple_nios_lab" instantiated altera_avalon_sysid_qsys "sysid"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "simple_nios_lab" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "simple_nios_lab" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "simple_nios_lab" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'simple_nios_lab_nios_cpu'
+Info: cpu:   Generation command is [exec D:/Intel/Quartus/18.0lite/quartus/bin64//eperlcmd.exe -I D:/Intel/Quartus/18.0lite/quartus/bin64//perl/lib -I D:/intel/quartus/18.0lite/quartus/sopc_builder/bin/europa -I D:/intel/quartus/18.0lite/quartus/sopc_builder/bin/perl_lib -I D:/intel/quartus/18.0lite/quartus/sopc_builder/bin -I D:/intel/quartus/18.0lite/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I D:/intel/quartus/18.0lite/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I D:/intel/quartus/18.0lite/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I D:/intel/quartus/18.0lite/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- D:/intel/quartus/18.0lite/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=simple_nios_lab_nios_cpu --dir=C:/Users/a73778/AppData/Local/Temp/1/alt7917_4325775962071245193.dir/0010_cpu_gen/ --quartus_bindir=D:/Intel/Quartus/18.0lite/quartus/bin64/ --verilog --config=C:/Users/a73778/AppData/Local/Temp/1/alt7917_4325775962071245193.dir/0010_cpu_gen//simple_nios_lab_nios_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2019.01.21 14:38:27 (*) Starting Nios II generation
+Info: cpu: # 2019.01.21 14:38:27 (*)   Checking for plaintext license.
+Info: cpu: # 2019.01.21 14:38:28 (*)   Couldn't query license setup in Quartus directory D:/Intel/Quartus/18.0lite/quartus/bin64/
+Info: cpu: # 2019.01.21 14:38:28 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2019.01.21 14:38:28 (*)   Plaintext license not found.
+Info: cpu: # 2019.01.21 14:38:28 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2019.01.21 14:38:28 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2019.01.21 14:38:28 (*)   Creating all objects for CPU
+Info: cpu: # 2019.01.21 14:38:31 (*)   Generating RTL from CPU objects
+Info: cpu: # 2019.01.21 14:38:31 (*)   Creating plain-text RTL
+Info: cpu: # 2019.01.21 14:38:32 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'simple_nios_lab_nios_cpu'
+Info: cpu: "nios" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: nios_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/MAX1000/Simple_Nios_lab/simple_nios_lab/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_003: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_003"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/MAX1000/Simple_Nios_lab/simple_nios_lab/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/MAX1000/Simple_Nios_lab/simple_nios_lab/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: simple_nios_lab: Done "simple_nios_lab" with 31 modules, 50 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

@@ -1,0 +1,18 @@
+Fitter Status : Successful - Mon Jan 21 14:41:31 2019
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : simple_nios_lab
+Top-level Entity Name : simple_nios_lab
+Family : MAX 10
+Device : 10M08SAU169C8G
+Timing Models : Final
+Total logic elements : 1,720 / 8,064 ( 21 % )
+    Total combinational functions : 1,586 / 8,064 ( 20 % )
+    Dedicated logic registers : 947 / 8,064 ( 12 % )
+Total registers : 947
+Total pins : 10 / 130 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 76,800 / 387,072 ( 20 % )
+Embedded Multiplier 9-bit elements : 0 / 48 ( 0 % )
+Total PLLs : 1 / 1 ( 100 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 1 ( 0 % )
