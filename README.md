@@ -16,7 +16,7 @@ The folders contain the following information:
 
 * **Projects**: Contains different interesting projects
 * **Documents**: Various useful documentation (schematics, images, ...)
-* **Lab**: Intel Max 10 webinar
+* **Labs**: Intel Max 10 webinars
 
 
 ### **Contributing:**

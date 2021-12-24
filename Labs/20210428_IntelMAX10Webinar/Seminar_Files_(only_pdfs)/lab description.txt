@@ -1,0 +1,11 @@
+Lab1: First MAX1000 Design Lab
+Lab2: RTL Simulation Lab
+Lab3: Simple Nios II Lab
+Lab4: Embedded System Lab
+Lab5: Internal Flash Lab
+Lab6: Signal Probe Debugging Lab
+Lab7: SignalTap Lab
+Lab8: In-System Sources and Probes Lab
+Lab9: Timing Closure Lab
+Lab10: Authentication Flash Lab
+AnalogMAX Lab: Jupyter demo
